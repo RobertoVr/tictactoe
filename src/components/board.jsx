@@ -2,10 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { Storage } from './../storage/storage';
-
-
 import { Box } from './board-box';
-
 import * as utils from '../utils/functions';
 
 export class Board extends React.Component {
@@ -78,7 +75,7 @@ export class Board extends React.Component {
         return (
             <>
             <Link to="/" className="board-link">Go back to scoreboard</Link>
-            // the game board
+            {/* the game board */}
             <div className="board-wrapper">
                 <div className="board">
                     <h2 className="board-heading"> { status }</h2>

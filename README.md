@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Aditional dependency
 
 ### `npm install react-router-dom`
+### `npm install @material-ui/core`
 
 
 ## Available Scripts

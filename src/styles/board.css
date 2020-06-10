@@ -9,7 +9,7 @@
 
 .board-row {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
 }
 
 .board-heading {
